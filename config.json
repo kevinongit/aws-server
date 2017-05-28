@@ -1,0 +1,5 @@
+{
+    "dbUri": "mongodb://dbuser:dbuser001@ds011258.mlab.com:11258/kevintestdb",
+    "apiUrl": "http://localhost:3000",
+    "secret": "My Secret passpharse goes like this"
+}

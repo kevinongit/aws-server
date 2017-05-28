@@ -1,0 +1,33 @@
+{
+  "name": "aws-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon dist/index.js",
+    "start-bak": "{ gulp watch & node dist/index.js & }",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/body-parser": "^1.16.3",
+    "@types/debug": "0.0.29",
+    "@types/express": "^4.0.35",
+    "@types/morgan": "^1.7.32",
+    "@types/node": "^7.0.22",
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^3.1.6",
+    "nodemon": "^1.11.0",
+    "typescript": "^2.3.3"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.17.2",
+    "debug": "^2.6.8",
+    "express": "^4.15.3",
+    "mongoose": "^4.10.2",
+    "morgan": "^1.8.2"
+  }
+}
